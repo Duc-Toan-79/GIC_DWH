@@ -102,9 +102,10 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
+<domain>35A21500-19BF-321F-A30F-6FD0624CE3EB</domain>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ri_risk_level" id="B024BAE4-90B9-B20B-2874-A516C69CC7D7">
@@ -130,9 +131,10 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5000</dataTypeSize>
+<domain>4F1D8F99-9747-431A-A652-7FCA7C3F7118</domain>
 <ownDataTypeParameters>5000,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="risk_type_compulsory" id="F56045D6-A141-8619-0060-5D691B1B1539">
@@ -294,9 +296,23 @@
 <domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="w_insured_id1" id="9FE5465D-567D-1C98-03AA-ADA5B4E32F53">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 12:19:51 UTC</createdTime>
+<generatorID>4C261CAE-8670-2C9B-5A30-FA0167700EB4</generatorID>
+<ownerDesignName>GIC_DWH</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<referedAttribute>EDB6731E-6C3D-665C-8CCC-3226DD04987C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="31BCA260-4C4E-E820-5F59-1F7824E8B31E" name="w_contact_d_PK">
+<identifier id="31BCA260-4C4E-E820-5F59-1F7824E8B31E" name="w_insured_property_d_PK">
 <createdBy>Admin</createdBy>
 <createdTime>2025-09-01 03:32:32 UTC</createdTime>
 <ownerDesignName>GIC_DWH</ownerDesignName>
@@ -304,6 +320,7 @@
 <item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>BCE52CC0-CB46-1CDB-9296-2433ECDB4F3F</newElementsIDs>
 <usedAttributes>
 <attributeRef>BCE52CC0-CB46-1CDB-9296-2433ECDB4F3F</attributeRef>
 </usedAttributes>

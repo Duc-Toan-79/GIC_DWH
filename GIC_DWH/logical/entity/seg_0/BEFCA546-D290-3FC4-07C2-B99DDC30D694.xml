@@ -213,7 +213,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E1AFEB78-7710-16AD-E289-E687FD036DD8" name="w_contact_d_PK">
+<identifier id="E1AFEB78-7710-16AD-E289-E687FD036DD8" name="w_product_d_PK">
 <createdBy>Admin</createdBy>
 <createdTime>2025-08-31 09:36:30 UTC</createdTime>
 <ownerDesignName>GIC_DWH</ownerDesignName>
@@ -221,6 +221,7 @@
 <item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>41B6F2EE-B2EA-2339-8169-4695C9845C52</newElementsIDs>
 <usedAttributes>
 <attributeRef>41B6F2EE-B2EA-2339-8169-4695C9845C52</attributeRef>
 </usedAttributes>

@@ -63,8 +63,8 @@
 <generatorID>B9090AF6-23FD-3446-4653-953B85364683</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
 <use>0</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<domain>55FED129-DBC8-40F9-1078-CF7E78B710B2</domain>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4F1D8F99-9747-431A-A652-7FCA7C3F7118</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -164,21 +164,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="w_insured_id1" id="13EBD336-83E2-A33A-747D-D8B586B8EFE5">
-<createdBy>Admin</createdBy>
-<createdTime>2025-09-01 03:50:38 UTC</createdTime>
-<generatorID>119A6B96-2968-CD79-18F4-1FDBA1C6E49E</generatorID>
-<ownerDesignName>GIC_DWH</ownerDesignName>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="FF5E48AF-72DA-BEBF-120B-EF92C4E84011" referredColumn="54076F1B-68B5-A512-AFDF-AB16AFD50B1A"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="A5A8724C-72BC-EF80-57B0-58390F5BAC97" name="w_insured_master_d_PK">
@@ -191,17 +176,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="702CC4E5-08BD-A07E-C0FE-43225AE2D2D1"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="73AD774F-530C-DEF1-2C85-DD3B5B02DF78" name="w_insured_master_d_w_insured_property_d_FK">
-<createdBy>Admin</createdBy>
-<createdTime>2025-09-01 03:50:38 UTC</createdTime>
-<generatorID>99CF78EC-A947-D876-7F87-1329CA22BCD3</generatorID>
-<ownerDesignName>GIC_DWH</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="13EBD336-83E2-A33A-747D-D8B586B8EFE5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

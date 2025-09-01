@@ -213,6 +213,20 @@
 <colAssociation fkAssociation="71A14096-D769-477F-77B0-351C25F0F710" referredColumn="41BA96B0-A127-AE42-6CD9-E8AB76445AB2"/>
 </associations>
 </Column>
+<Column name="w_customer_d_w_customer_id" id="19C7F2FE-A92F-0E7E-864D-C47AF294F793">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<ownerDesignName>GIC_DWH</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>84B845DC-5F1C-B1BE-7164-3111CF77B44A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="770CFF31-A67E-8416-2762-B225BA9B3EA1" referredColumn="4EEC1024-9C39-43FC-8A9F-6AF6BD11E764"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="8F4DD976-06B7-E980-B569-DBF5863409F7" name="w_customer_policy_bridge_d_PK">
@@ -234,6 +248,9 @@
 <ownerDesignName>GIC_DWH</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19C7F2FE-A92F-0E7E-864D-C47AF294F793"/>
+</indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="B42D8095-2D65-4A4E-6013-22FCD6715C22" name="w_customer_policy_bridge_d_w_customer_unnamed_d_FK">
 <createdBy>Admin</createdBy>

@@ -161,7 +161,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B1447924-C583-F98A-9EB2-516F750C7FFA" name="w_contact_d_PK">
+<identifier id="B1447924-C583-F98A-9EB2-516F750C7FFA" name="w_endorsement_cancel_type_d_PK">
 <createdBy>Admin</createdBy>
 <createdTime>2025-09-01 03:11:49 UTC</createdTime>
 <ownerDesignName>GIC_DWH</ownerDesignName>
@@ -169,6 +169,7 @@
 <item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>74CC6201-2D27-7183-7385-65F82BFF8B64</newElementsIDs>
 <usedAttributes>
 <attributeRef>74CC6201-2D27-7183-7385-65F82BFF8B64</attributeRef>
 </usedAttributes>

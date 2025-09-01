@@ -1,94 +1,80 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B8DCEC2-5ECF-A5D4-46D0-6FBC41F1664F" name="w_insured_cargo_d">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2E23A20-57D7-746C-E7DA-1492AA5400B8" name="w_insured_cargo_d">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>5B8DCEC2-5ECF-A5D4-46D0-6FBC41F1664F</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
-<adequatelyNormalized>NO</adequatelyNormalized>
-<expectedVolumes>0</expectedVolumes>
-<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
-<growthPercent>0</growthPercent>
-<growthType>Year</growthType>
-<maxVolumes>9999999</maxVolumes>
-<minVolumes>0</minVolumes>
-<normalForm>Third</normalForm>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="w_insured_cargo_id" id="28C10E34-50F8-4F22-DCBD-DA29A9A1F356">
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="w_insured_cargo_id" id="A2628C50-0541-FA0E-1EE8-08FA017DE54C">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
 <commentInRDBMS><![CDATA[customer_id, PK, unique identifier for w_customer_d]]></commentInRDBMS>
+<generatorID>28C10E34-50F8-4F22-DCBD-DA29A9A1F356</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="w_insured_id" id="8E1DE484-9AE4-1EBE-F12B-FE07B4F1154C">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_insured_id" id="D30A57A5-4ED8-0F66-9036-55108D531EBD">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
 <commentInRDBMS><![CDATA[customer code, in source this field is PARTY_CODE]]></commentInRDBMS>
+<generatorID>8E1DE484-9AE4-1EBE-F12B-FE07B4F1154C</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="business_class" id="4D78EC62-A243-7491-5822-5B1A12B05467">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="business_class" id="37693CCB-04AF-8903-2FCB-26030C77EF25">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
 <commentInRDBMS><![CDATA[customer name]]></commentInRDBMS>
+<generatorID>4D78EC62-A243-7491-5822-5B1A12B05467</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="commodity_group" id="1764CE23-45CA-D09B-59E1-F6D37C25054A">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="commodity_group" id="AEA16740-FAE0-DBA9-BE2F-0AA9FDE982A7">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>1764CE23-45CA-D09B-59E1-F6D37C25054A</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="good_insured" id="33FD9DC3-25F4-48D6-26D9-949C2829C243">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="good_insured" id="5DA0040D-01AC-4F19-ED10-D59B537BE043">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>33FD9DC3-25F4-48D6-26D9-949C2829C243</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="commodity_type" id="01AA89A0-E29E-6F35-43F0-E3180BEF00E8">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="commodity_type" id="6138B277-51A5-37BB-621A-1327A0306CBE">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>01AA89A0-E29E-6F35-43F0-E3180BEF00E8</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
@@ -96,14 +82,13 @@
 <dataTypeSize>50</dataTypeSize>
 <domain>C1F99D67-4D69-AAA6-298F-F11C9052BE9D</domain>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="invoice_no" id="930AD953-4602-EE71-EEC3-53A91BB3AA0D">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="invoice_no" id="02B49ADF-819F-5263-D02F-82EC73BFB1D6">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>930AD953-4602-EE71-EEC3-53A91BB3AA0D</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
@@ -111,14 +96,13 @@
 <dataTypeSize>50</dataTypeSize>
 <domain>E3DC54DB-C3B7-CE98-A89F-D1B6606C5C37</domain>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="b/l_no" id="83BE4211-01A7-7E0B-454D-FE0FF5B1FDC4">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="b/l_no" id="7CD363C0-5FA5-97AB-FB24-530D887A5200">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>83BE4211-01A7-7E0B-454D-FE0FF5B1FDC4</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
@@ -126,14 +110,13 @@
 <dataTypeSize>50</dataTypeSize>
 <domain>E3DC54DB-C3B7-CE98-A89F-D1B6606C5C37</domain>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="sales_contract_no" id="747B7B0E-2515-F0C8-79C0-0E02260F12AE">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sales_contract_no" id="FB56D8E2-E14F-32F8-EF1D-18C82461EB97">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>747B7B0E-2515-F0C8-79C0-0E02260F12AE</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
@@ -141,14 +124,13 @@
 <dataTypeSize>5000</dataTypeSize>
 <domain>E3DC54DB-C3B7-CE98-A89F-D1B6606C5C37</domain>
 <ownDataTypeParameters>5000,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="inland_transit_document_no" id="EB6B54C9-7093-C18A-BE5C-70177AF707A7">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inland_transit_document_no" id="7C9ECBEE-B843-577D-2317-CE438C3493FD">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>EB6B54C9-7093-C18A-BE5C-70177AF707A7</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
@@ -156,14 +138,13 @@
 <dataTypeSize>50</dataTypeSize>
 <domain>E3DC54DB-C3B7-CE98-A89F-D1B6606C5C37</domain>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="quantity" id="D23B4554-88ED-3B30-A4DE-15CC5180C5A4">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantity" id="9033B17B-9036-B0E4-8163-E79A8D631995">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>D23B4554-88ED-3B30-A4DE-15CC5180C5A4</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
@@ -172,28 +153,26 @@
 <dataTypeScale>2</dataTypeScale>
 <domain>E7652355-C983-964A-DCCF-E8EEE016E853</domain>
 <ownDataTypeParameters>,18,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="packing_category" id="E1DF8964-1F8F-F587-3931-BAA184C5394B">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="packing_category" id="874AC4FB-F935-73C9-FDFA-B61C8068685B">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>E1DF8964-1F8F-F587-3931-BAA184C5394B</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="description_means_of_package" id="27357F6D-C5ED-082B-CC69-88A88652C9C5">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description_means_of_package" id="8F266BC6-F098-3586-760A-4E76D3B54203">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>27357F6D-C5ED-082B-CC69-88A88652C9C5</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
@@ -201,109 +180,101 @@
 <dataTypeSize>255</dataTypeSize>
 <domain>F2C9B115-F11F-FD87-B9FD-BF3180626750</domain>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="container_seal_no" id="9867E5FA-F2E9-F2F3-1573-CCFA45BAD096">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="container_seal_no" id="2BF893EF-C58A-6951-CCB0-80EAE948282B">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>9867E5FA-F2E9-F2F3-1573-CCFA45BAD096</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>E3DC54DB-C3B7-CE98-A89F-D1B6606C5C37</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="voyage_from" id="DE656572-5136-0889-35C5-38ADCE43BD16">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="voyage_from" id="46492987-6376-4289-B25B-3734DD41A50A">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
 <commentInRDBMS><![CDATA[system field, concat list natural key from source and user for data etl processing]]></commentInRDBMS>
+<generatorID>DE656572-5136-0889-35C5-38ADCE43BD16</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="voyage_to" id="D2A02166-690B-DF2A-281C-5AF03DDB385F">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="voyage_to" id="63E2EE4F-29EB-7DF5-7B87-086ACD9E1A82">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 05:14:14 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>D2A02166-690B-DF2A-281C-5AF03DDB385F</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="trans_shipment" id="E4E5F30A-D817-7CE1-96A4-0133E2443D60">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trans_shipment" id="65CCF7F0-02CF-B91B-9182-304D5F655801">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 05:14:14 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>E4E5F30A-D817-7CE1-96A4-0133E2443D60</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="date_of_departure" id="B80978F2-8B14-0BD3-3860-BAA6EA9D5353">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_of_departure" id="B63F0AB6-81F2-376E-84C8-A28EABE5F1AC">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 05:14:14 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>B80978F2-8B14-0BD3-3860-BAA6EA9D5353</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <domain>45EC3B67-642F-9E31-84A5-02B06C9B5566</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="to_be_advised" id="3DC8F8BB-76D5-6743-8AD7-E22D8B0868B0">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="to_be_advised" id="5CF28206-17DB-3357-B438-094BF0A7782B">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 05:14:15 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>3DC8F8BB-76D5-6743-8AD7-E22D8B0868B0</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <domain>3007D0DF-CB64-CD0D-7DBF-5CB095D0FA81</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="means_of_transport" id="FC874D0C-819D-4E3D-0518-83209B19A949">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="means_of_transport" id="636A46A6-6302-5793-C602-1388E8E3C61E">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 05:14:15 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>FC874D0C-819D-4E3D-0518-83209B19A949</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="means_of_transport_is_vessel" id="B9357B56-A4E2-B586-9D4A-0B3835230DFC">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="means_of_transport_is_vessel" id="7A2B87F3-FD1A-34BD-2F11-03240FF42025">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 05:15:02 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>B9357B56-A4E2-B586-9D4A-0B3835230DFC</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
@@ -311,53 +282,49 @@
 <dataTypeSize>50</dataTypeSize>
 <domain>3007D0DF-CB64-CD0D-7DBF-5CB095D0FA81</domain>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="vessel_name" id="FC9F96D9-ECAF-6E45-49F0-0B955C5AD0FC">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vessel_name" id="1DB63B5B-42BA-DE58-12FA-DC3FF507BCEA">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 05:15:02 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>FC9F96D9-ECAF-6E45-49F0-0B955C5AD0FC</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <domain>55FED129-DBC8-40F9-1078-CF7E78B710B2</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="vessel_year_of_build" id="AF3B55EC-BDF5-1A23-F1C2-5A541064901D">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vessel_year_of_build" id="6EC76754-CB79-D2D3-0483-C88D1B6815AA">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 05:15:02 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>AF3B55EC-BDF5-1A23-F1C2-5A541064901D</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <domain>5C18183F-CF87-498A-754F-F55651A20C3E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="currency" id="285467C1-A555-1CC7-E316-9B2B547054CC">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="currency" id="8D80F25F-B3C9-B0D1-39B8-54889292C374">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 05:15:02 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>285467C1-A555-1CC7-E316-9B2B547054CC</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <domain>BE98530A-7273-BD07-16AB-03592AFBC733</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="freight" id="C23AF63B-9DCB-8EE2-0619-628AAFECF448">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="freight" id="63C99457-794B-DC77-50D4-1CA969782687">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 05:15:02 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>C23AF63B-9DCB-8EE2-0619-628AAFECF448</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
@@ -366,79 +333,73 @@
 <dataTypeScale>2</dataTypeScale>
 <domain>E7652355-C983-964A-DCCF-E8EEE016E853</domain>
 <ownDataTypeParameters>,18,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="sum_insured" id="CF4C6BE0-9E05-B83F-157F-A894B6FF4A4C">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sum_insured" id="5119FE20-B1CA-FEBD-7AD1-5B07B426BF99">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 05:15:03 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>CF4C6BE0-9E05-B83F-157F-A894B6FF4A4C</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <domain>E7652355-C983-964A-DCCF-E8EEE016E853</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="sales_contract_date" id="FBAF9CEF-5DA5-67B8-3FA4-1C1DE7DDAFF7">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sales_contract_date" id="608DEB0E-ACD2-C7F0-8589-99346BB78DFE">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 05:15:03 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>FBAF9CEF-5DA5-67B8-3FA4-1C1DE7DDAFF7</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <domain>45EC3B67-642F-9E31-84A5-02B06C9B5566</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="invoice_date" id="E5E5BCE0-D31E-7DF2-3AB0-1D837EAA560E">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="invoice_date" id="DF7F9CC2-94C5-5BF1-B23A-8BDF9A4F6AA8">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 05:15:03 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>E5E5BCE0-D31E-7DF2-3AB0-1D837EAA560E</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <domain>45EC3B67-642F-9E31-84A5-02B06C9B5566</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="b/l_date" id="2C397DE9-224A-0952-6127-A8C7CBEF8CC3">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="b/l_date" id="3403C24C-7586-F0F1-795B-3C7808B8C378">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 05:15:03 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>2C397DE9-224A-0952-6127-A8C7CBEF8CC3</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <domain>45EC3B67-642F-9E31-84A5-02B06C9B5566</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="latest_shipment" id="2469024B-90AE-D741-CE2C-4F5C60FD7054">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="latest_shipment" id="8FE5BC7B-8705-BC05-B3A5-11FE2FCD3ACE">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 05:32:06 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>2469024B-90AE-D741-CE2C-4F5C60FD7054</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <domain>45EC3B67-642F-9E31-84A5-02B06C9B5566</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="voyage_to_be_advised" id="F3B8F787-42C3-34E2-56EF-B19B40FB0465">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="voyage_to_be_advised" id="6C1654D0-C79C-82C3-800E-BAA22D1ABB7E">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 05:32:06 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>F3B8F787-42C3-34E2-56EF-B19B40FB0465</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
@@ -446,323 +407,313 @@
 <dataTypeSize>50</dataTypeSize>
 <domain>F2C9B115-F11F-FD87-B9FD-BF3180626750</domain>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="voyage_no" id="416B8DC1-7747-66A1-AA38-02FC47A40F52">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="voyage_no" id="2DF440F8-0DE9-81EB-4E3F-9EF9C22B0B73">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 05:32:06 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>416B8DC1-7747-66A1-AA38-02FC47A40F52</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
 <domain>E3DC54DB-C3B7-CE98-A89F-D1B6606C5C37</domain>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="exchange_rate_for_si" id="33E0D4C6-777E-C220-F6F8-211B1D27D9C1">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="exchange_rate_for_si" id="4AF50B98-EFB0-F3AC-73F0-CFE28FD3CAED">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 05:32:06 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>33E0D4C6-777E-C220-F6F8-211B1D27D9C1</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <domain>E7652355-C983-964A-DCCF-E8EEE016E853</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="invoice_contract_value" id="E2AFB3E7-DC25-5F9D-95EF-4C10C526EA88">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="invoice_contract_value" id="953E51D8-AA59-A0B2-CCE4-5681997FDB67">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 05:32:06 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>E2AFB3E7-DC25-5F9D-95EF-4C10C526EA88</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <domain>E7652355-C983-964A-DCCF-E8EEE016E853</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="rate" id="6F31C004-9356-4B80-7C9C-DD7952EC9DBE">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rate" id="5F2287FD-20BB-0209-2564-E51BE73381AC">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 05:32:07 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>6F31C004-9356-4B80-7C9C-DD7952EC9DBE</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <domain>3EB37B0F-4DF2-4429-AAE1-F3AB82C6716F</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="premium_according_to_si_vnd" id="DC47902E-A80D-7959-D655-FD67FCD1C5C0">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="premium_according_to_si_vnd" id="55C61334-980E-03F4-002C-47A57C0CF87F">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 05:32:07 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>DC47902E-A80D-7959-D655-FD67FCD1C5C0</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <domain>7F8FDFAB-35AA-E5E3-E12E-20FC696AF35E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="premium_according_to_si_fc" id="A570146A-9E5E-FD6E-5FD5-55F641E74088">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="premium_according_to_si_fc" id="EE278E91-76E7-8EB7-ECAD-1B143E15EF4B">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 12:10:57 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>A570146A-9E5E-FD6E-5FD5-55F641E74088</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <domain>7F8FDFAB-35AA-E5E3-E12E-20FC696AF35E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="currency_of_income" id="755721FD-B5E3-6169-C21A-C7AE5C6EFBA6">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="currency_of_income" id="F0BFC08A-F9CC-2F71-5079-46BC53AD0160">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 12:11:28 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>755721FD-B5E3-6169-C21A-C7AE5C6EFBA6</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <domain>BE98530A-7273-BD07-16AB-03592AFBC733</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="gross_income" id="F41F77A4-CDF2-2D99-0004-83F6257D4E66">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gross_income" id="029FF09D-6934-31B9-779E-8166CF698461">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 12:11:08 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>F41F77A4-CDF2-2D99-0004-83F6257D4E66</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <domain>7F8FDFAB-35AA-E5E3-E12E-20FC696AF35E</domain>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="other_revenue" id="C709C0ED-C8C3-2B3F-0D3F-A5C7C4B39761">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="other_revenue" id="65D29F9E-363E-9711-4847-CA4606799DF9">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 12:11:27 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>C709C0ED-C8C3-2B3F-0D3F-A5C7C4B39761</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <domain>7F8FDFAB-35AA-E5E3-E12E-20FC696AF35E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="total" id="1708A7AC-5E2D-5634-38E4-5CBCF0CF7D80">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="57E4DEE1-918A-8F9D-1E85-CA1EF3340D71">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 12:11:27 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>1708A7AC-5E2D-5634-38E4-5CBCF0CF7D80</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <domain>7F8FDFAB-35AA-E5E3-E12E-20FC696AF35E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="insured_services" id="C8449B28-06B1-19AE-0125-F8F908B52609">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="insured_services" id="788400DD-E56C-53B0-1B2F-B654030F3A13">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 12:11:27 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>C8449B28-06B1-19AE-0125-F8F908B52609</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>EE3CFE55-06B2-F82D-6694-3B45D17943FF</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="excluding" id="A57BCED0-9558-C9D9-1FF7-127AAC6D9760">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="excluding" id="EAA71D57-EB2A-B55D-B7A9-E21FF74F2750">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 12:11:28 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>A57BCED0-9558-C9D9-1FF7-127AAC6D9760</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <domain>F2C9B115-F11F-FD87-B9FD-BF3180626750</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ship_name" id="7B1262EF-5566-A3C4-16DB-D991886F97CC">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ship_name" id="3D01F32D-0ECD-7531-095B-4F9C508732C7">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 12:11:28 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>7B1262EF-5566-A3C4-16DB-D991886F97CC</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <domain>55FED129-DBC8-40F9-1078-CF7E78B710B2</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="risk_type" id="D745202C-F684-41A6-2A42-B16A23AE5DAF">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="risk_type" id="D32DF4AC-4B42-4536-FEF1-632E8F81D06A">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 12:13:04 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>D745202C-F684-41A6-2A42-B16A23AE5DAF</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>C1F99D67-4D69-AAA6-298F-F11C9052BE9D</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="program" id="10EA44DE-F859-1526-9B99-90D5117DC315">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="program" id="EA1DEFFE-319B-D096-C360-2E6E61EDBC36">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 12:13:15 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>10EA44DE-F859-1526-9B99-90D5117DC315</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>35A21500-19BF-321F-A30F-6FD0624CE3EB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="w integration key" id="AEE8DB79-CEC8-1F17-67EA-1477C2AC6829">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_integration_key" id="97B950AC-3BB0-1B8F-AC8B-0BF0E20E03B2">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 05:14:14 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>AEE8DB79-CEC8-1F17-67EA-1477C2AC6829</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <domain>16C37F49-CC32-399B-E92E-4F6D1C3C03C1</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="w valid from" id="E445DC9D-E872-711D-8761-C651D427DD09">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_valid_from" id="6F969449-64AA-B30C-8EC4-8BC4B7BC06A7">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
 <commentInRDBMS><![CDATA[system field, used for data integration, marking date when record is valid]]></commentInRDBMS>
+<generatorID>E445DC9D-E872-711D-8761-C651D427DD09</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <use>0</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <domain>53D4C337-D175-9973-AB68-0E49187DD1D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="w valid to" id="914F117A-8C34-E4FC-4625-4A27BFCE8448">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_valid_to" id="0239DB98-EF8B-8E74-8DA7-7F45410EAE97">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
 <commentInRDBMS><![CDATA[system field, used for data integration, marking date when record is valid]]></commentInRDBMS>
+<generatorID>914F117A-8C34-E4FC-4625-4A27BFCE8448</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <use>0</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <domain>E2BA4DCD-BED3-972B-7C1A-0D71E79422CD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="w valid flag" id="3B80546F-7F3C-9D30-492D-61D1A18A9566">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_valid_flag" id="A3DB28C2-4025-F506-4099-E4C27D37881E">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
 <commentInRDBMS><![CDATA[system field, used for data integration, marking record is valid or not]]></commentInRDBMS>
+<generatorID>3B80546F-7F3C-9D30-492D-61D1A18A9566</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <use>0</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <domain>3007D0DF-CB64-CD0D-7DBF-5CB095D0FA81</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="w created time" id="8EDA728F-1B47-6AEC-0078-DC10E7288FC0">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_created_time" id="9A26B898-45CE-065E-F26F-7E474FE37DF4">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
 <commentInRDBMS><![CDATA[system field, used for data integration, marking time when record is created]]></commentInRDBMS>
+<generatorID>8EDA728F-1B47-6AEC-0078-DC10E7288FC0</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <use>0</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
 <domain>679B8CEF-991B-BB91-42CD-E9947F4C1E5E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="w updated time" id="2D975CB5-DC8A-9153-510A-7DFB11D81244">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_updated_time" id="33312A17-91E3-07A2-9B31-878031AA06AF">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
 <commentInRDBMS><![CDATA[system field, used for data integration, marking time when record is updated]]></commentInRDBMS>
+<generatorID>2D975CB5-DC8A-9153-510A-7DFB11D81244</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <use>0</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
 <domain>679B8CEF-991B-BB91-42CD-E9947F4C1E5E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="w job id" id="AA15A50C-0288-BC26-3EC4-9A7E63F8E74A">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_job_id" id="17D0A7A0-45E7-7294-2821-85B227BDC389">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
 <commentInRDBMS><![CDATA[system field, refers to batch job id for each of run]]></commentInRDBMS>
+<generatorID>AA15A50C-0288-BC26-3EC4-9A7E63F8E74A</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
 <use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="w_insured_id1" id="ABB0496D-370A-348F-DE50-85FFB66C5079">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_insured_id1" id="285632ED-0CD0-AAD8-3FE7-A8B1FA754385">
 <createdBy>Admin</createdBy>
-<createdTime>2025-09-01 12:19:56 UTC</createdTime>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>ABB0496D-370A-348F-DE50-85FFB66C5079</generatorID>
+<ownerDesignName>GIC_DWH</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08483B45-DBCC-EEA1-43E8-D8A7F112F37E" referredColumn="702CC4E5-08BD-A07E-C0FE-43225AE2D2D1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D69C3D33-2F1B-9A7F-48B4-E3538E880640" name="w_insured_cargo_d_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>1A6CDE48-D872-34C1-0CC0-ECB6D7EA5E68</generatorID>
+<ownerDesignName>GIC_DWH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2628C50-0541-FA0E-1EE8-08FA017DE54C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A59E786-96F8-2121-46BD-111CAFBF2D60" name="w_insured_cargo_d_w_insured_master_d_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
 <generatorID>82E6E3D8-B63E-B0CF-4C72-D7F48A4E20EE</generatorID>
 <ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
-<referedAttribute>EDB6731E-6C3D-665C-8CCC-3226DD04987C</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1A6CDE48-D872-34C1-0CC0-ECB6D7EA5E68" name="w_insured_cargo_d_PK">
-<createdBy>Admin</createdBy>
-<createdTime>2025-09-01 04:19:31 UTC</createdTime>
-<ownerDesignName>GIC_DWH</ownerDesignName>
-<engineerTo>
-<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<newElementsIDs>28C10E34-50F8-4F22-DCBD-DA29A9A1F356</newElementsIDs>
-<usedAttributes>
-<attributeRef>28C10E34-50F8-4F22-DCBD-DA29A9A1F356</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
-</Entity>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="285632ED-0CD0-AAD8-3FE7-A8B1FA754385"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
