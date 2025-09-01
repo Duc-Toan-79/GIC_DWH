@@ -87,9 +87,10 @@
 <ownerDesignName>GIC_DWH</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
+<domain>35A21500-19BF-321F-A30F-6FD0624CE3EB</domain>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -113,9 +114,10 @@
 <ownerDesignName>GIC_DWH</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5000</dataTypeSize>
+<domain>4F1D8F99-9747-431A-A652-7FCA7C3F7118</domain>
 <ownDataTypeParameters>5000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -266,6 +268,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="w_insured_id1" id="8945D18B-9EEB-C3D2-B205-40BF5B9F3B22">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>9FE5465D-567D-1C98-03AA-ADA5B4E32F53</generatorID>
+<ownerDesignName>GIC_DWH</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E18F4F78-1C57-E0A1-2EFD-8474579BF28B" referredColumn="702CC4E5-08BD-A07E-C0FE-43225AE2D2D1"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="15DDAE2F-26F0-71FD-A0B8-931F6A872E6F" name="w_insured_property_d_PK">
@@ -278,6 +295,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="54076F1B-68B5-A512-AFDF-AB16AFD50B1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08F42D2D-FDAE-ED99-5E4D-E12C881383B7" name="w_insured_property_d_w_insured_master_d_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<generatorID>4C261CAE-8670-2C9B-5A30-FA0167700EB4</generatorID>
+<ownerDesignName>GIC_DWH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8945D18B-9EEB-C3D2-B205-40BF5B9F3B22"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

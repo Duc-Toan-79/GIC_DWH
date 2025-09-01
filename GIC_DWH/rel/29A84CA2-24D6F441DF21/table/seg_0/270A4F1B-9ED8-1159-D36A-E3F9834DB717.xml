@@ -519,6 +519,20 @@
 <colAssociation fkAssociation="8A1637A0-43EC-073B-3AA9-0D168637C030" referredColumn="66C2AA6E-5524-D304-E6EB-29465565F37C"/>
 </associations>
 </Column>
+<Column name="w_new_biz_status_d_w_new_biz_status_id" id="7704090C-8C5D-41C9-60AF-5F6EA01760E1">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 12:37:18 UTC</createdTime>
+<ownerDesignName>GIC_DWH</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC0294EF-521C-AA22-29F7-11C801ADA05D" referredColumn="DBD5F5C8-3D9F-C957-870C-7695B34DF69A"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F5331C8E-3F6F-4AF9-9FFB-65A30248C7F4" name="w_policy_d_PK">
@@ -562,6 +576,9 @@
 <ownerDesignName>GIC_DWH</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7704090C-8C5D-41C9-60AF-5F6EA01760E1"/>
+</indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="70DC7161-AE8F-5CEC-9ACB-6162CAFB3DC1" name="w_policy_d_w_branch_d_FK">
 <createdBy>Admin</createdBy>
